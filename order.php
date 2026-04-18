@@ -4,7 +4,7 @@ include("db.php");
 
 if(isset($_POST['order'])){
     if(!isset($_SESSION['cart']) || empty($_SESSION['cart'])){
-        echo "<script>alert('ပစ္စည်းအရင်ရွေးပါ'); window.location='product.php';</script>";
+        echo "<script>alert; window.location='product.php';</script>";
         exit();
     }
 
